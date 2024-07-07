@@ -1,13 +1,12 @@
-package com.cloud.encripty.CloudEncripty;
+package com.cloud.encryptor.CloudEncryptor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CloudEncriptyApplication {
+public class CloudEncryptorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CloudEncriptyApplication.class, args);
+		SpringApplication.run(CloudEncryptorApplication.class, args);
 	}
-
 }
